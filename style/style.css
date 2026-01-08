@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0x;
+    max-width:1600px;
+    font-family: "Work Sans", sans-serif;
 }
 
 #banner{
@@ -48,3 +50,40 @@
  border: none;
 cursor: pointer;
 }
+
+#failures{
+    padding-top: 130px;
+}
+#failures .failures-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 87px;
+}
+#failures .failures-image img{
+    /* border: 1px solid red; */
+    width: 569px;
+    margin-left: 205px;
+    gap: 87px;
+}
+#failures .failures-conten{
+    /* border: 1px solid red; */
+    margin-top: 219px;
+    
+    margin-right: 322px;
+    margin-bottom: 100px;
+}
+#failures .failures-conten h2{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+#failures .failures-conten p{
+    line-height: 26px;
+    margin-bottom: 20px;
+
+}
+#failures .failures-conten ul{
+    line-height: 26px;
+    list-style:none;
+}
+ 
